@@ -1,3 +1,5 @@
+# Movie Search App
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Movie Search App using React powered by [TheMovieDB API](https://www.themoviedb.org/)
