@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+.body {
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    //-webkit-background-size:cover;
+    
+    //font-size: 2rem;
+   // margin: 0;
+    //padding: 0;
+    
+    
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.outerContainer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85) 15%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 1) 90%);
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+    
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+footer > * {
+    display: block;
+    margin: 15px;
+}
+
+.link{
+    text-decoration: none; 
+    color: #868080;
+    &:hover, &:active {
+        color:#DA4F4F;
+        text-decoration: none;
+    }
+}
+

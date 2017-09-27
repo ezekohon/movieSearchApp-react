@@ -1,0 +1,63 @@
+.cardContainer{
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.85);
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  display: block;
+}
+
+.posterContainer {
+  .poster {
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    
+    
+  }
+}
+
+.upperCase{
+  text-transform: uppercase;
+  
+}
+
+.title{
+  font-size: 2.2em;
+  color:  #fafafa;
+}
+
+.overview{
+  color:  #fafafa;
+  font-weight: lighter;
+}
+
+.tagline {
+  display: block;
+  padding-bottom: 0.25em;
+  color: #DA4F4F;
+}
+
+.movie-data-container{
+  color:  #fafafa;
+  //font-size: 1em;
+ margin: 35px 0 20px ;
+  padding: 0;
+}
+
+.movie-data-container > *{
+  margin-top: 15px;
+}
+.movie-data{
+  display: block;
+  line-height: 1.1em;
+  font-size: 1.5em;
+  color: #DA4F4F;
+}
+
+
+@media (max-width: 576px) {
+  .movie-data-container{
+    font-size: 0.9em;
+  }
+}
+
+
